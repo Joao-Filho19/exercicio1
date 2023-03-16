@@ -1,0 +1,21 @@
+package uea.pagamentos_api.models;
+
+public class Pessoa {
+	private Long codigo;
+	private String nome;
+	private Boolean ativo;
+	
+	public Pessoa() {
+		super();
+	}
+	
+	public Pessoa(Long codigo, String nome, Boolean ativo) {
+		super();
+		this.codigo = codigo;
+		this.nome = nome;
+		this.ativo = ativo;
+	}
+	
+	
+	
+}

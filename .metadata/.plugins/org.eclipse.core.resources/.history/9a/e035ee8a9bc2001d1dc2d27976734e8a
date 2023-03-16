@@ -1,0 +1,9 @@
+package uea.pagamentos_api.resources;
+
+import org.springframework.web.bind.annotation.ControllerAdvice;
+
+@ControllerAdvice
+public class ResourceExceptionHandler {
+	@ExceptionHandler(NoSuchElementException.class)
+	public ResponseEntity<StandardError>
+}

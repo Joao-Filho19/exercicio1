@@ -1,0 +1,40 @@
+package uea.pagamentos_api.services;
+
+import java.util.List;
+import java.util.NoSuchElementException;
+
+import org.apache.el.stream.Optional;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import uea.pagamentos_api.models.Categoria;
+import uea.pagamentos_api.repositories.CategoriaRepository;
+
+@Service
+public class CategoriaService {
+	
+	@Autowired
+	private CategoriaRepository categoriaRepository;
+	
+	public List<Categoria> listar() {
+		return categoriaRepository.findAll();
+	}
+	
+	public Categoria criar(Categoria categoria) {
+		return categoriaRepository.save(categoria);
+	} 
+	
+	public Categoria buscarPorCodigo(Long codigo) {
+		try {
+			Optional<Categoria> categoria = categoriaRepository.findById(codigo); 
+			return categoria.get();			
+		} catch (NoSuchElementException e) {
+			throw new ObjectNotFountException(codigo);
+		}
+	}
+	
+	
+	public voi excluir(Long codigo){
+		categoriaRepository.deleteById(codigo);
+	}
+}
