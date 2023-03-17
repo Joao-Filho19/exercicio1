@@ -1,10 +1,12 @@
 package uea.pagamentos_api.models;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.Objects;
 
-import jakarta.persistence.Column;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
@@ -13,47 +15,43 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
-import jakarta.persistence.Table;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 import uea.pagamentos_api.models.enums.TipoLancamento;
 
 @Entity
-@Table(name = "lancamento")
-public class Lancamento {
+public class Lancamento implements Serializable {
+	private static final long serialVersionUID = 1L;
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long codigo;
-
+	@NotBlank(message = "Descrição é obrigatório")
 	private String descricao;
-	
-	//@NotNull
-	@Column(name = "data_vencimento")
+	@NotNull(message = "Data vencimento é obrigatório")
 	private LocalDate dataVencimento;
-
-	@Column(name = "data_pagamento")
 	private LocalDate dataPagamento;
-	
-	//@NotNull
+	@NotNull(message = "Valor é obrigatório")
 	private BigDecimal valor;
-
 	private String observacao;
-
-	//@NotNull
+	
 	@Enumerated(EnumType.STRING)
+	@NotNull(message = "Tipo é obrigatório")
 	private TipoLancamento tipo;
-
-	//@NotNull
+	
+	@NotNull(message = "Categoria é obrigatório")
 	@ManyToOne
-	@JoinColumn(name = "codigo_categoria")
+	@JoinColumn(name="codigo_categoria")
 	private Categoria categoria;
 
-	//@NotNull
+	@JsonIgnoreProperties({"endereco","ativo"})
+	@NotNull(message = "Pessoa é obrigatório")
 	@ManyToOne
-	@JoinColumn(name = "codigo_pessoa")
+	@JoinColumn(name="codigo_pessoa")
 	private Pessoa pessoa;
-	
-	public Lancamento () {
-		
+
+	public Lancamento() {
+		super();
 	}
 
 	public Lancamento(Long codigo, String descricao, LocalDate dataVencimento, LocalDate dataPagamento,
