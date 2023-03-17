@@ -1,14 +1,10 @@
 package uea.pagamentos_api.services;
-
 import java.util.List;
-
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import uea.pagamentos_api.models.Pessoa;
 import uea.pagamentos_api.repositories.PessoaRepository;
-
 @Service
 public class PessoaService {
 	
@@ -31,7 +27,15 @@ public class PessoaService {
 	public void excluir(Long codigo) {
 		pessoaRepository.deleteById(codigo);
 	}
-	
+
+	public Pessoa atualizarPropriedadeAtivo(Long codigo,
+			Boolean ativo) {
+		Pessoa pessoaSalva = pessoaRepository.findById(codigo).
+				orElseThrow();
+		pessoaSalva.setAtivo(ativo);
+		return pessoaRepository.save(pessoaSalva);
+	}
+
 	public Pessoa atualizar(Long codigo, Pessoa pessoa) {
 		Pessoa pessoaSalva = pessoaRepository.
 				findById(codigo).orElseThrow();
@@ -39,5 +43,4 @@ public class PessoaService {
 		return pessoaRepository.save(pessoaSalva);
 	}
 	
-
 }
