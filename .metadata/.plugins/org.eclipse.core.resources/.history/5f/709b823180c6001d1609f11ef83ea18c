@@ -1,0 +1,43 @@
+package uea.pagamentos_api.services;
+
+import java.util.List;
+
+import org.springframework.beans.BeanUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import uea.pagamentos_api.models.Endereco;
+import uea.pagamentos_api.repositories.EnderecoRepository;
+
+@Service
+public class EnderecoService {
+	
+	@Autowired
+	private EnderecoRepository enderecoRepository;
+	
+	public Endereco criar(Endereco endereco) {
+		return enderecoRepository.save(endereco);
+	}
+	
+	public List<Endereco> listar(){
+		return enderecoRepository.findAll();
+	}
+	
+	public Endereco buscarPorCodigo(Long codigo) {
+		Endereco endereco = enderecoRepository.findById(codigo).orElseThrow();
+		return endereco;
+	}
+	
+	public void excluir(Long codigo) {
+		enderecoRepository.deleteById(codigo);
+	}
+	
+	public Endereco atualizar(Long codigo, Endereco endereco) {
+		Endereco enderecoSalva = enderecoRepository.
+				findById(codigo).orElseThrow();
+		BeanUtils.copyProperties(endereco, enderecoSalva, "codigo");
+		return enderecoRepository.save(enderecoSalva);
+	}
+	
+
+}

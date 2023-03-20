@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
     <fullyQualifiedTypeName name="jakarta.persistence.GeneratedValue"/>
@@ -21,7 +20,6 @@
     <fullyQualifiedTypeName name="org.apache.el.stream.Optional"/>
     <fullyQualifiedTypeName name="java.util.NoSuchElementException"/>
     <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="org.hibernate.mapping.List"/>
     <fullyQualifiedTypeName name="org.springframework.beans.BeanUtils"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.DeleteMapping"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PutMapping"/>
@@ -31,4 +29,9 @@
     <fullyQualifiedTypeName name="java.io.Serializable"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Embeddable"/>
     <fullyQualifiedTypeName name="jakarta.validation.constraints.NotBlank"/>
+    <fullyQualifiedTypeName name="uea.pagamentos_api.repositories.filters.PessoaFilter"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.criteria.Predicate"/>
+    <fullyQualifiedTypeName name="org.hibernate.mapping.List"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
+    <fullyQualifiedTypeName name="java.awt.print.Pageable"/>
 </qualifiedTypeNameHistroy>

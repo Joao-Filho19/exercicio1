@@ -1,0 +1,70 @@
+package uea.pagamentos_api.resources;
+
+import java.net.URI;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
+
+import uea.pagamentos_api.models.Endereco;
+import uea.pagamentos_api.services.EnderecoService;
+
+@RestController
+@RequestMapping("/enderecos")
+public class EnderecoResource {
+	
+	@Autowired
+	private EnderecoService enderecoService;
+	
+	@PostMapping
+	public ResponseEntity<Endereco> criar(@RequestBody Endereco endereco) {
+		Endereco enderecoSalva = enderecoService.criar(endereco);
+		
+		URI uri = ServletUriComponentsBuilder.
+				fromCurrentRequest().path("/{codigo}").
+				buildAndExpand(enderecoSalva.getCodigo()).toUri();
+		
+		return ResponseEntity.created(uri).body(enderecoSalva);
+	}
+	
+	@GetMapping
+	public ResponseEntity<List<Endereco>> listar() {
+		List<Endereco> enderecos = enderecoService.listar();
+		return ResponseEntity.ok().body(enderecos);
+	}
+	
+	@GetMapping(value = "/{codigo}")
+	public ResponseEntity<Endereco> buscarPorCodigo(@PathVariable 
+			Long codigo){
+		Endereco endereco = enderecoService.buscarPorCodigo(codigo);
+		return ResponseEntity.ok().body(endereco);
+	}
+	
+	@DeleteMapping(value="/{codigo}")
+	public ResponseEntity<Void> excluir(@PathVariable Long codigo){
+		enderecoService.excluir(codigo);
+		return ResponseEntity.noContent().build();
+	}
+	
+	@PutMapping(value="/{codigo}")
+	public ResponseEntity<Endereco> atualizar(@PathVariable Long codigo,
+			@RequestBody Endereco endereco){
+		Endereco enderecoSalva = enderecoService.atualizar(codigo,
+				endereco);
+		return ResponseEntity.ok().body(enderecoSalva);
+		
+	}
+	
+	
+	
+}

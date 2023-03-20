@@ -26,6 +26,7 @@ public class Lancamento implements Serializable {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long codigo;
+	
 	@NotBlank(message = "Descrição é obrigatório")
 	private String descricao;
 	@NotNull(message = "Data vencimento é obrigatório")

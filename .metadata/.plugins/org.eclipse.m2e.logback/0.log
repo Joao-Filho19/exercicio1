@@ -6092,3 +6092,215 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact uea.pagamento
 2023-03-17 12:34:46,874 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
 2023-03-17 12:34:46,892 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
 2023-03-17 12:34:46,899 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 09:01:25,467 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-03-19 09:39:13,049 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 09:39:13,084 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 09:39:13,091 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 09:39:34,750 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 09:39:34,768 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 09:39:34,786 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 09:39:50,073 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 09:39:50,081 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 09:39:50,084 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 09:39:59,157 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 09:39:59,190 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 09:39:59,194 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 09:40:37,206 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 09:40:37,211 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 09:40:37,216 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 09:40:46,279 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 09:40:46,285 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 09:40:46,289 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 09:41:53,797 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 09:41:53,802 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 09:41:53,805 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 09:42:27,299 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 09:42:27,307 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 09:42:27,313 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 09:42:43,485 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 09:42:43,491 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 09:42:43,495 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 09:42:45,571 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 09:42:45,625 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 09:42:45,629 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 09:43:00,325 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 09:43:00,331 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 09:43:00,334 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 09:43:32,561 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 09:43:32,565 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 09:43:32,568 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 09:43:55,932 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 09:43:55,940 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 09:43:55,943 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 09:44:09,505 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 09:44:09,512 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 09:44:09,516 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 09:44:33,899 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 09:44:33,906 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 09:44:33,912 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 09:44:54,122 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 09:44:54,126 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 09:44:54,130 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 09:45:41,821 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 09:45:41,826 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 09:45:41,829 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 09:45:57,719 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 09:45:57,725 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 09:45:57,728 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 10:58:25,476 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 10:58:25,488 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 10:58:25,491 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 11:01:11,278 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 11:01:11,289 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 11:01:11,293 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 11:01:57,791 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 11:01:57,797 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 11:01:57,801 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 12:59:25,995 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 12:59:26,091 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 12:59:26,096 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 13:21:45,628 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 13:21:45,639 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 13:21:45,645 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 13:23:48,225 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 13:23:48,233 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 13:23:48,237 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 13:24:18,557 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 13:24:18,562 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 13:24:18,564 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 13:24:58,102 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 13:24:58,106 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 13:24:58,109 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 13:27:15,592 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 13:27:15,596 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 13:27:15,598 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 13:29:16,023 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 13:29:16,027 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 13:29:16,030 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 13:34:45,053 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 13:34:45,059 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 13:34:45,065 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 13:37:25,341 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 13:37:25,345 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 13:37:25,348 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 13:37:56,139 [Worker-47: Launching pagaamentos_api - PagaamentosApiApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 13:37:56,148 [Worker-47: Launching pagaamentos_api - PagaamentosApiApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 13:37:56,151 [Worker-47: Launching pagaamentos_api - PagaamentosApiApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 13:59:11,801 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 13:59:11,806 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 13:59:11,810 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 14:02:21,062 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 14:02:21,068 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 14:02:21,073 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 14:02:27,465 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 14:02:27,471 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 14:02:27,476 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 14:02:35,351 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 14:02:35,358 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 14:02:35,361 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 14:05:20,584 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 14:05:20,590 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 14:05:20,592 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 14:43:41,707 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 14:43:41,738 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 14:43:41,741 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 15:02:32,734 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 15:02:32,744 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 15:02:32,746 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 15:03:17,749 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 15:03:17,758 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 15:03:17,763 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 15:08:55,352 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 15:08:55,361 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 15:08:55,363 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 15:57:35,541 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 15:57:35,560 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 15:57:35,566 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 15:58:57,014 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 15:58:57,022 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 15:58:57,024 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 16:02:27,828 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 16:02:27,833 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 16:02:27,836 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 16:11:45,037 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 16:11:45,044 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 16:11:45,046 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 16:12:31,615 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 16:12:31,626 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 16:12:31,629 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 16:13:32,559 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 16:13:32,569 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 16:13:32,573 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 16:13:46,490 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 16:13:46,493 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 16:13:46,495 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 16:42:08,763 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 16:42:08,782 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 16:42:08,805 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 16:43:09,300 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 16:43:09,305 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 16:43:09,307 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 16:43:18,686 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 16:43:18,797 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 16:43:18,800 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 16:43:50,247 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 16:43:50,335 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 16:43:50,337 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 16:44:45,937 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 16:44:45,955 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 16:44:45,958 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 16:45:58,521 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 16:45:58,552 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 16:45:58,557 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 16:52:39,432 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 16:52:39,439 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 16:52:39,443 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 16:52:42,192 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 16:52:42,199 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 16:52:42,203 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 16:57:59,372 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 16:57:59,378 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 16:57:59,384 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 16:59:03,774 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 16:59:03,780 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 16:59:03,783 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 17:02:11,466 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 17:02:11,470 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 17:02:11,473 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 17:04:13,606 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 17:04:13,611 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 17:04:13,613 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 17:05:24,192 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 17:05:24,237 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 17:05:24,239 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 17:09:27,810 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 17:09:27,815 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 17:09:27,818 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 17:13:45,612 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 17:13:45,616 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 17:13:45,619 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 17:15:10,403 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 17:15:10,409 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 17:15:10,412 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 17:16:57,009 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 17:16:57,014 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 17:16:57,016 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 17:18:55,803 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 17:18:55,807 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 17:18:55,809 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 18:00:25,025 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 18:00:25,065 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 18:00:25,068 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 20:12:53,558 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-03-19 20:33:21,386 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 20:33:21,416 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 20:33:21,424 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 20:33:23,429 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 20:33:23,465 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 20:33:23,474 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 20:33:28,414 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 20:33:28,423 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 20:33:28,429 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources
+2023-03-19 20:37:52,489 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 20:37:52,498 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 20:37:52,503 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\joaos\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\pagaamentos_api\src\test\resources

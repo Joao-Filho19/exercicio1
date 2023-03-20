@@ -1,0 +1,8 @@
+package uea.pagamentos_api.repositories.pessoa;
+
+public class PessoaRepositoryQuery {
+	
+	public Page<Pessoa> filtrar(PessoaFilter pessoaFilter, Pageable pageable);
+
+
+}

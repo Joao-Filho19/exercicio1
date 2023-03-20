@@ -1,0 +1,6 @@
+package uea.pagamentos_api.services;
+
+import uea.pagamentos_api.repositories.PessoaRepository;
+
+	private EnderecoRepository enderecoRepository;
+}

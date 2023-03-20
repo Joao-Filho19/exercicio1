@@ -1,3 +1,4 @@
+
 package uea.pagamentos_api.resources;
 
 import java.net.URI;
