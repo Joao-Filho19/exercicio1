@@ -1,5 +1,5 @@
 package uea.pagamentos_api.resources;
-import java.awt.print.Pageable;
+import org.springframework.data.domain.Pageable;
 import java.net.URI;
 import java.util.List;
 
@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import jakarta.validation.Valid;
+import uea.pagamentos_api.dto.ResumoPessoaDto;
 import uea.pagamentos_api.models.Endereco;
 import uea.pagamentos_api.models.Pessoa;
 import uea.pagamentos_api.repositories.filters.PessoaFilter;
@@ -35,16 +36,26 @@ public class PessoaResource {
 	}
 	
 	@GetMapping
+	public ResponseEntity<Page<ResumoPessoaDto>> resumir(PessoaFilter pessoaFilter,
+			Pageable pageable) {
+		Page<ResumoPessoaDto> resumos = pessoaService.resumir(pessoaFilter, pageable);
+		return ResponseEntity.ok().body(resumos);
+	}
+
+	
+	
+	/*
+	@GetMapping
 	public ResponseEntity<Page<Pessoa>> pesquisar(PessoaFilter pessoaFilter, Pageable pageable) {
 		Page<Pessoa> pessoas = pessoaService.pesquisar(pessoaFilter, pageable);
 		return ResponseEntity.ok().body(pessoas);
-	}
+	}*/
 	
-	@GetMapping
+	/*@GetMapping
 	public ResponseEntity<List<Pessoa>> listar() {
 		List<Pessoa> pessoas = pessoaService.listar();
 		return ResponseEntity.ok().body(pessoas);
-	}
+	}*/
 	@GetMapping(value = "/{codigo}")
 	public ResponseEntity<Pessoa> buscarPorCodigo(@PathVariable Long codigo) {
 		Pessoa pessoa = pessoaService.buscarPorCodigo(codigo);

@@ -1,9 +1,10 @@
 package uea.pagamentos_api.resources;
 
 import java.net.URI;
-import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -16,7 +17,9 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import jakarta.validation.Valid;
+import uea.pagamentos_api.dto.ResumoLancamentoDto;
 import uea.pagamentos_api.models.Lancamento;
+import uea.pagamentos_api.repositories.filters.LancamentoFilter;
 import uea.pagamentos_api.services.LancamentoService;
 
 @RestController
@@ -25,6 +28,8 @@ public class LancamentoResource {
 
 	@Autowired
 	private LancamentoService lancamentoService;
+	
+	
 
 	@PostMapping
 	public ResponseEntity<Lancamento> criar(@Valid @RequestBody Lancamento lancamento) {
@@ -37,9 +42,10 @@ public class LancamentoResource {
 	}
 
 	@GetMapping
-	public ResponseEntity<List<Lancamento>> listar() {
-		List<Lancamento> lancamentos = lancamentoService.listar();
-		return ResponseEntity.ok().body(lancamentos);
+	public ResponseEntity<Page<ResumoLancamentoDto>> resumir(LancamentoFilter lancamentoFilter,
+			Pageable pageable) {
+		Page<ResumoLancamentoDto> resumos = lancamentoService.resumir(lancamentoFilter, pageable);
+		return ResponseEntity.ok().body(resumos);
 	}
 
 	@GetMapping(value = "/{codigo}")

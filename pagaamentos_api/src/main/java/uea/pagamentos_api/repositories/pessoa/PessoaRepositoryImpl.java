@@ -15,6 +15,8 @@ import jakarta.persistence.criteria.CriteriaBuilder;
 import jakarta.persistence.criteria.CriteriaQuery;
 import jakarta.persistence.criteria.Predicate;
 import jakarta.persistence.criteria.Root;
+import uea.pagamentos_api.dto.ResumoLancamentoDto;
+import uea.pagamentos_api.dto.ResumoPessoaDto;
 import uea.pagamentos_api.models.Pessoa;
 import uea.pagamentos_api.repositories.filters.PessoaFilter;
 
@@ -24,21 +26,25 @@ public class PessoaRepositoryImpl implements PessoaRepositoryQuery {
 	private EntityManager manager;
 
 	@Override
-	public Page<Pessoa> filtrar(PessoaFilter pessoaFilter, Pageable pageable) {
+	public Page<ResumoPessoaDto> filtrar(PessoaFilter pessoaFilter, Pageable pageable) {
 		CriteriaBuilder builder = manager.getCriteriaBuilder();
-		CriteriaQuery<Pessoa> criteria = builder.createQuery(Pessoa.class);
+		CriteriaQuery<ResumoPessoaDto> criteria = builder.createQuery(ResumoPessoaDto.class);
 		Root<Pessoa> root = criteria.from(Pessoa.class);
 
+		criteria.select(builder.construct(ResumoPessoaDto.class, root.get("codigo"), root.get("nome"),
+				root.get("ativo"), root.get("endereco")));
+		
 		Predicate[] predicates = criarRestricoes(pessoaFilter, builder, root);
 		if (predicates.length > 0) {
 			criteria.where(predicates);
 		}
 
-		TypedQuery<Pessoa> query = manager.createQuery(criteria);
+		TypedQuery<ResumoPessoaDto> query = manager.createQuery(criteria);
 
 		adicionarRestricoesDePaginacao(query, pageable);
 
-		return new PageImpl<>(query.getResultList(), pageable, total(pessoaFilter));
+		return new PageImpl<>(query.getResultList(), pageable,
+				total(pessoaFilter));
 	}
 
 	private Predicate[] criarRestricoes(PessoaFilter pessoaFilter, CriteriaBuilder builder,
